@@ -1,3 +1,9 @@
+# Why was this package forked?
+
+There's an issue with a dependency used by @ezcater/recipe. Which translates to undesired behaviour in the EzModal. A fix is made to the dependency (@reach/dialog v0.5.3) but the it introduces a change which breaks recipe's doc site.
+
+This version of reach ensures the @reach/dialog is at v0.1.3 and the [changes](https://github.com/reach/reach-ui/pull/246/files) introduced in v0.5.3 that fixes the [issue](https://github.com/ezcater/recipe/issues/243) with the EzModal are included.
+
 # Welcome to Reach UI Development ♿️
 
 Thanks for getting involved with Reach UI development!
